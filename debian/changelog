@@ -1,0 +1,51 @@
+node-deprecated (0.0.2-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ lintian-brush ]
+  * Remove overrides for lintian tags that are no longer supported.
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-deprecated: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Sun, 03 Oct 2021 11:10:12 +0200
+
+node-deprecated (0.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in debian/watch.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use github tags
+  * New upstream version 0.0.2
+  * Use pkg-js-tools auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 13 May 2020 21:25:27 +0200
+
+node-deprecated (0.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842200)
+
+ -- Sagar Ippalpalli <i.vikram15@gmail.com>  Thu, 27 Oct 2016 02:26:19 +0530
